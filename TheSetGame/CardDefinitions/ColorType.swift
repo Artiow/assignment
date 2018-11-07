@@ -1,5 +1,5 @@
 //
-//  SetGame.swift
+//  ColorType.swift
 //  TheSetGame
 //
 //  Created by xcode on 07.11.2018.
@@ -8,8 +8,9 @@
 
 import Foundation
 
-class SetGame {
+enum ColorType {
     
-    init() {
-    }
+    case red, green, blue
+    
+    public static let values = [red, green, blue]
 }

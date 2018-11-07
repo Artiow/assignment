@@ -1,5 +1,5 @@
 //
-//  SetGame.swift
+//  QuantityType.swift
 //  TheSetGame
 //
 //  Created by xcode on 07.11.2018.
@@ -8,8 +8,9 @@
 
 import Foundation
 
-class SetGame {
+enum QuantityType {
     
-    init() {
-    }
+    case one, two, three
+    
+    public static let values = [one, two, three]
 }

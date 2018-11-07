@@ -1,5 +1,5 @@
 //
-//  SetGame.swift
+//  ShapeType.swift
 //  TheSetGame
 //
 //  Created by xcode on 07.11.2018.
@@ -8,8 +8,9 @@
 
 import Foundation
 
-class SetGame {
+enum ShapeType {
     
-    init() {
-    }
+    case rhombus, oval, wave
+    
+    public static let values = [rhombus, oval, wave]
 }
