@@ -57,7 +57,6 @@
 				AED0A4882192E0C400736A3E /* SupportingFiles */,
 				AED0A4782192DFE800736A3E /* ViewController.swift */,
 				AED0A47A2192DFE800736A3E /* Main.storyboard */,
-				AED0A47D2192DFEA00736A3E /* Assets.xcassets */,
 				AED0A4822192DFEA00736A3E /* Info.plist */,
 			);
 			path = TheSetGame;
@@ -66,6 +65,7 @@
 		AED0A4882192E0C400736A3E /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				AED0A47D2192DFEA00736A3E /* Assets.xcassets */,
 				AED0A47F2192DFEA00736A3E /* LaunchScreen.storyboard */,
 				AED0A4762192DFE800736A3E /* AppDelegate.swift */,
 			);
