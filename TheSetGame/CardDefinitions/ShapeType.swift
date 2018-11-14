@@ -10,7 +10,7 @@ import Foundation
 
 enum ShapeType {
     
-    case rhombus, oval, wave
+    case circle, square, triangle
     
-    public static let values = [rhombus, oval, wave]
+    public static let values = [circle, square, triangle]
 }

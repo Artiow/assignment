@@ -8,11 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AE55C81E2192EC5800779F6E /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE55C81D2192EC5800779F6E /* SetGame.swift */; };
-		AE55C8212192F28800779F6E /* QuantityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE55C8202192F28800779F6E /* QuantityType.swift */; };
-		AE55C8232192F36E00779F6E /* ShapeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE55C8222192F36E00779F6E /* ShapeType.swift */; };
-		AE55C8252192F3DB00779F6E /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE55C8242192F3DB00779F6E /* ColorType.swift */; };
-		AE55C8272192F41F00779F6E /* TextureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE55C8262192F41F00779F6E /* TextureType.swift */; };
 		AE55C8292192F4AC00779F6E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE55C8282192F4AC00779F6E /* Card.swift */; };
+		AE890D67219C437100818357 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE890D66219C437100818357 /* BorderButton.swift */; };
+		AE890D6B219C566000818357 /* CardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE890D6A219C566000818357 /* CardButton.swift */; };
+		AE890D6D219C5CD700818357 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE890D6C219C5CD700818357 /* Deck.swift */; };
 		AED0A4772192DFE800736A3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED0A4762192DFE800736A3E /* AppDelegate.swift */; };
 		AED0A4792192DFE800736A3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED0A4782192DFE800736A3E /* ViewController.swift */; };
 		AED0A47C2192DFE800736A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED0A47A2192DFE800736A3E /* Main.storyboard */; };
@@ -22,11 +21,10 @@
 
 /* Begin PBXFileReference section */
 		AE55C81D2192EC5800779F6E /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
-		AE55C8202192F28800779F6E /* QuantityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityType.swift; sourceTree = "<group>"; };
-		AE55C8222192F36E00779F6E /* ShapeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeType.swift; sourceTree = "<group>"; };
-		AE55C8242192F3DB00779F6E /* ColorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorType.swift; sourceTree = "<group>"; };
-		AE55C8262192F41F00779F6E /* TextureType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureType.swift; sourceTree = "<group>"; };
 		AE55C8282192F4AC00779F6E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		AE890D66219C437100818357 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		AE890D6A219C566000818357 /* CardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardButton.swift; sourceTree = "<group>"; };
+		AE890D6C219C5CD700818357 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		AED0A4732192DFE800736A3E /* TheSetGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheSetGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED0A4762192DFE800736A3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AED0A4782192DFE800736A3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,15 +45,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AE55C81F2192F17F00779F6E /* CardDefinitions */ = {
+		AE890D68219C562400818357 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AE55C8202192F28800779F6E /* QuantityType.swift */,
-				AE55C8222192F36E00779F6E /* ShapeType.swift */,
-				AE55C8242192F3DB00779F6E /* ColorType.swift */,
-				AE55C8262192F41F00779F6E /* TextureType.swift */,
+				AE890D6C219C5CD700818357 /* Deck.swift */,
 			);
-			path = CardDefinitions;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE890D69219C563600818357 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AED0A4782192DFE800736A3E /* ViewController.swift */,
+				AE890D66219C437100818357 /* BorderButton.swift */,
+				AE890D6A219C566000818357 /* CardButton.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		AED0A46A2192DFE800736A3E = {
@@ -77,9 +82,9 @@
 		AED0A4752192DFE800736A3E /* TheSetGame */ = {
 			isa = PBXGroup;
 			children = (
-				AE55C81F2192F17F00779F6E /* CardDefinitions */,
+				AE890D69219C563600818357 /* Controller */,
+				AE890D68219C562400818357 /* Model */,
 				AED0A4882192E0C400736A3E /* SupportingFiles */,
-				AED0A4782192DFE800736A3E /* ViewController.swift */,
 				AED0A47A2192DFE800736A3E /* Main.storyboard */,
 				AED0A4822192DFEA00736A3E /* Info.plist */,
 				AE55C81D2192EC5800779F6E /* SetGame.swift */,
@@ -169,14 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE890D6D219C5CD700818357 /* Deck.swift in Sources */,
 				AED0A4792192DFE800736A3E /* ViewController.swift in Sources */,
-				AE55C8252192F3DB00779F6E /* ColorType.swift in Sources */,
-				AE55C8272192F41F00779F6E /* TextureType.swift in Sources */,
+				AE890D67219C437100818357 /* BorderButton.swift in Sources */,
 				AE55C81E2192EC5800779F6E /* SetGame.swift in Sources */,
-				AE55C8232192F36E00779F6E /* ShapeType.swift in Sources */,
-				AE55C8212192F28800779F6E /* QuantityType.swift in Sources */,
 				AED0A4772192DFE800736A3E /* AppDelegate.swift in Sources */,
 				AE55C8292192F4AC00779F6E /* Card.swift in Sources */,
+				AE890D6B219C566000818357 /* CardButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

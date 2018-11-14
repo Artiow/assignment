@@ -12,5 +12,5 @@ enum TextureType {
     
     case painted, shaded, contour
     
-    public static let values = [painted, shaded, contour]
+    public static let values = [filled, shaded, blank]
 }
