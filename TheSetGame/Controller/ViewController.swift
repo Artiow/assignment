@@ -6,7 +6,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // update smth
+        initButtons()
+        UpdateButtonsFromModel()
     }
 
     override func didReceiveMemoryWarning() {
@@ -14,15 +15,25 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBOutlet var cardButtons: [BorderButton]!
+    @IBOutlet var cardButtons: [CardButton]!
     
     @IBAction func DealMoreButton(_ sender: Any) {
         
     }
     
+    private func initButtons() {
+        for button in cardButtons {
+            button.backgroundColor = nil
+            button.setTitle(nil, for: .normal)
+            button.borderColor = UIColor.clear
+            button.isEnabled = false
+        }
+    }
+    
     private func UpdateButtonsFromModel() {
         for index in game.cardsOnTable.indices {
-            var button = cardButtons[index]
+            let button = cardButtons[index]
+            button.initButton(card: game.cardsOnTable[index])
         }
     }
     

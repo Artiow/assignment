@@ -26,4 +26,11 @@ import UIKit
         return NSAttributedString(string: symbolsString, attributes: attributes)
     }
     
+    func initButton (card: Card) {
+        let attributedString  = setAttributedString(card: card)
+        setAttributedTitle(attributedString, for: .normal)
+        borderColor = #colorLiteral(red: 0.714486698, green: 0.7708367465, blue: 0.7669996681, alpha: 1)
+        backgroundColor = #colorLiteral(red: 0.8431372549, green: 0.9098039216, blue: 0.9019607843, alpha: 1)
+        isEnabled = true
+    }
 }
