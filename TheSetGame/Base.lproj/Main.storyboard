@@ -33,11 +33,6 @@
                                                     <constraint firstAttribute="width" constant="79" id="hLy-PH-pWH"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -58,11 +53,6 @@
                                                     <constraint firstAttribute="height" constant="90" id="Xpb-d1-3xV"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -83,11 +73,6 @@
                                                     <constraint firstAttribute="height" constant="90" id="nzS-J9-ClP"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -108,11 +93,6 @@
                                                     <constraint firstAttribute="height" constant="90" id="oLW-if-kIk"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -138,11 +118,6 @@
                                                     <constraint firstAttribute="height" constant="90" id="eFB-L6-Ah3"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -163,11 +138,6 @@
                                                     <constraint firstAttribute="width" constant="79" id="fFR-39-YfG"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -188,11 +158,6 @@
                                                     <constraint firstAttribute="height" constant="90" id="vFK-cJ-5Wt"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -213,11 +178,6 @@
                                                     <constraint firstAttribute="height" constant="90" id="jQl-Xh-7Ea"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -243,11 +203,6 @@
                                                     <constraint firstAttribute="width" constant="79" id="GM8-NY-Kc7"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -268,11 +223,6 @@
                                                     <constraint firstAttribute="height" constant="90" id="iCw-Cq-PKo"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -293,11 +243,6 @@
                                                     <constraint firstAttribute="width" constant="79" id="pwN-qg-DMN"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -318,11 +263,6 @@
                                                     <constraint firstAttribute="width" constant="79" id="vuM-qt-Np4"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -348,11 +288,6 @@
                                                     <constraint firstAttribute="width" constant="79" id="seP-W9-0HP"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -373,11 +308,6 @@
                                                     <constraint firstAttribute="height" constant="90" id="ZaS-2v-7gU"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -398,11 +328,6 @@
                                                     <constraint firstAttribute="width" constant="79" id="zJ9-8a-S22"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -423,11 +348,6 @@
                                                     <constraint firstAttribute="height" constant="90" id="llJ-7s-uDh"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -453,11 +373,6 @@
                                                     <constraint firstAttribute="width" constant="79" id="i8E-qR-EQq"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -478,11 +393,6 @@
                                                     <constraint firstAttribute="width" constant="79" id="uQV-gA-EaT"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -503,11 +413,6 @@
                                                     <constraint firstAttribute="width" constant="79" id="kr3-9D-jQk"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -528,11 +433,6 @@
                                                     <constraint firstAttribute="height" constant="90" id="p9S-y2-tzo"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -558,11 +458,6 @@
                                                     <constraint firstAttribute="width" constant="79" id="wv3-Mv-5WR"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -583,11 +478,6 @@
                                                     <constraint firstAttribute="width" constant="79" id="sH5-t5-CjY"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -608,11 +498,6 @@
                                                     <constraint firstAttribute="height" constant="90" id="tlb-E5-4kw"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -633,11 +518,6 @@
                                                     <constraint firstAttribute="width" constant="79" id="Lez-6B-AL1"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal">
-                                                    <string key="title">●
-■
-▲</string>
-                                                </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -654,13 +534,13 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qK8-Vz-gIR" customClass="BorderButton" customModule="TheSetGame" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qK8-Vz-gIR" customClass="BorderButton" customModule="TheSetGame" customModuleProvider="target">
                                 <rect key="frame" x="35" y="654" width="305" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490196079" green="0.90980392156862744" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="Deal 3 more">
-                                    <color key="titleColor" red="0.39528203520416177" green="0.42886118804285644" blue="0.42672663134620886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.39528203519999999" green="0.428861188" blue="0.42672663129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -677,10 +557,10 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="DealMoreButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SKn-Ft-a77"/>
+                                    <action selector="dealMoreButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SKn-Ft-a77"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3YX-ND-R7L" customClass="BorderButton" customModule="TheSetGame" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3YX-ND-R7L" customClass="BorderButton" customModule="TheSetGame" customModuleProvider="target">
                                 <rect key="frame" x="35" y="712" width="305" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.90980392160000001" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -702,6 +582,9 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startNewGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SFh-zE-5SV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

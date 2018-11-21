@@ -18,10 +18,5 @@ struct Card {
         var description: String {return String(self.rawValue)}
         var idx: Int {return (self.rawValue - 1)}
     }
-
     
-    private static func getUniqueIdentifier() -> Int {
-        idFactory += 1
-        return idFactory
-    }
 }

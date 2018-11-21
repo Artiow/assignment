@@ -2,12 +2,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    private var game = SetGame()
+    private lazy var game = SetGame(maxCardCount: cardButtons.count)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         initButtons()
-        UpdateButtonsFromModel()
+        updateButtonsFromModel()
     }
 
     override func didReceiveMemoryWarning() {
@@ -17,20 +17,27 @@ class ViewController: UIViewController {
     
     @IBOutlet var cardButtons: [CardButton]!
     
-    @IBAction func DealMoreButton(_ sender: Any) {
-        
+    @IBAction func dealMoreButton(_ sender: Any) {
+        game.deal()
+        updateButtonsFromModel()
+    }
+    
+    @IBAction func startNewGame(_ sender: UIButton) {
+        game = SetGame(maxCardCount: cardButtons.count)
+        initButtons()
+        updateButtonsFromModel()
     }
     
     private func initButtons() {
         for button in cardButtons {
             button.backgroundColor = nil
-            button.setTitle(nil, for: .normal)
+            button.setAttributedTitle(nil, for: .normal)
             button.borderColor = UIColor.clear
             button.isEnabled = false
         }
     }
     
-    private func UpdateButtonsFromModel() {
+    private func updateButtonsFromModel() {
         for index in game.cardsOnTable.indices {
             let button = cardButtons[index]
             button.initButton(card: game.cardsOnTable[index])

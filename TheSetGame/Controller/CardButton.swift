@@ -17,7 +17,7 @@ import UIKit
     
     private func setAttributedString(card: Card) -> NSAttributedString{
         let symbol = symbols[card.shape.idx]
-        let symbolsString = String(repeating: symbol, count: card.quantity.rawValue)
+        let symbolsString = Array(repeating: symbol, count: card.quantity.rawValue).joined(separator: "\n")
         let attributes:[NSAttributedStringKey : Any] = [
             .strokeColor: colors[card.color.idx],
             .strokeWidth: strokeWidths[card.background.idx],

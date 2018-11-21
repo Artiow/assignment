@@ -48,6 +48,8 @@
 		AE890D68219C562400818357 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AE55C81D2192EC5800779F6E /* SetGame.swift */,
+				AE55C8282192F4AC00779F6E /* Card.swift */,
 				AE890D6C219C5CD700818357 /* Deck.swift */,
 			);
 			path = Model;
@@ -87,8 +89,6 @@
 				AED0A4882192E0C400736A3E /* SupportingFiles */,
 				AED0A47A2192DFE800736A3E /* Main.storyboard */,
 				AED0A4822192DFEA00736A3E /* Info.plist */,
-				AE55C81D2192EC5800779F6E /* SetGame.swift */,
-				AE55C8282192F4AC00779F6E /* Card.swift */,
 			);
 			path = TheSetGame;
 			sourceTree = "<group>";

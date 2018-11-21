@@ -4,10 +4,12 @@ class SetGame {
     
     private let initialCardCount = 12
     private let cardCountToDeal = 3
+    private let maxCardCount: Int
     private var deck: Deck
     var cardsOnTable: [Card]
     
-    init() {
+    init(maxCardCount: Int) {
+        self.maxCardCount = maxCardCount
         deck = Deck()
         deck.shuffle()
         cardsOnTable = [Card]()
@@ -18,9 +20,11 @@ class SetGame {
         }
     }
     
+    
+    
     private func popCards(count: Int) -> [Card]?{
         var cards = [Card]()
-        for _ in 0...2 {
+        for _ in 1...cardCountToDeal {
             if let card = deck.pop() {
                 cards += [card]
             } else {
@@ -30,8 +34,8 @@ class SetGame {
         return cards
     }
     
-    func deal3() {
-        if let cards =  popCards(count: cardCountToDeal) {
+    func deal() {
+        if cardsOnTable.count + cardCountToDeal <= maxCardCount, let cards = popCards(count: cardCountToDeal) {
             cardsOnTable += cards
         }
     }
