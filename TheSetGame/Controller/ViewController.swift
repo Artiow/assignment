@@ -28,6 +28,13 @@ class ViewController: UIViewController {
         updateButtonsFromModel()
     }
     
+    @IBAction func touchButton(_ sender: CardButton) {
+        if let cardIndex = cardButtons.index(of: sender) {
+            game.selectCard()
+            updateButtonsFromModel()
+        }
+    }
+    
     private func initButtons() {
         for button in cardButtons {
             button.backgroundColor = nil

@@ -5,7 +5,10 @@ class SetGame {
     private let initialCardCount = 12
     private let cardCountToDeal = 3
     private let maxCardCount: Int
+    
     private var deck: Deck
+    private var selectedCards: [Card]
+    
     var cardsOnTable: [Card]
     
     init(maxCardCount: Int) {
@@ -19,8 +22,6 @@ class SetGame {
             }
         }
     }
-    
-    
     
     private func popCards(count: Int) -> [Card]?{
         var cards = [Card]()
@@ -40,6 +41,12 @@ class SetGame {
         }
     }
     
+    func selectCard(at index: Int) {
+        let selectedCard = cardsOnTable[index]
+        if !selectedCards.contains(selectedCard){
+            selectedCards
+        }
+    }
     
     
 }

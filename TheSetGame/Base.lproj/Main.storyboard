@@ -44,6 +44,9 @@
                                                         <color key="value" red="0.71448669801542952" green="0.77083674650231448" blue="0.76699966810814091" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EYu-JX-PO6"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1Hv-E6-OQJ" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="87" y="0.0" width="79" height="90"/>
@@ -619,7 +622,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-538" y="-997"/>
+            <point key="canvasLocation" x="-492" y="-1100"/>
         </scene>
     </scenes>
 </document>

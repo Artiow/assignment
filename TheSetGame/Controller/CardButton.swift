@@ -33,4 +33,10 @@ import UIKit
         backgroundColor = #colorLiteral(red: 0.8431372549, green: 0.9098039216, blue: 0.9019607843, alpha: 1)
         isEnabled = true
     }
+    
+    private struct Colors {
+        static let selected = #colorLiteral(red: 0.5827867383, green: 0.6322943891, blue: 0.629147291, alpha: 1)
+        static let matched = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
+        static var misMatched = #colorLiteral(red: 0.5725490451, green: 0, blue: 0.2313725501, alpha: 1)
+    }
 }
