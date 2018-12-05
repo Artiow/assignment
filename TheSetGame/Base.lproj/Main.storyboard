@@ -45,7 +45,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EYu-JX-PO6"/>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u24-i3-til"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1Hv-E6-OQJ" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
@@ -67,6 +67,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5hE-XA-AJp"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="cGc-OX-GkF" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="174" y="0.0" width="79" height="90"/>
@@ -87,6 +90,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0AQ-Z4-s7o"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dyK-oB-umJ" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="261" y="0.0" width="79" height="90"/>
@@ -107,6 +113,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rqI-40-nFb"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -132,6 +141,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yc2-az-bLw"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gkO-Db-EoW" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="87" y="0.0" width="79" height="90"/>
@@ -152,6 +164,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U56-7a-PnG"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Igj-jB-qG3" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="174" y="0.0" width="79" height="90"/>
@@ -172,6 +187,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D6u-aR-No5"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2ec-py-RBq" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="261" y="0.0" width="79" height="90"/>
@@ -192,6 +210,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ypY-lK-W0w"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -217,6 +238,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B9m-rc-HDz"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2TW-6z-a2Y" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="87" y="0.0" width="79" height="90"/>
@@ -237,6 +261,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iG9-iT-3nd"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="LYy-Xk-S1J" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="174" y="0.0" width="79" height="90"/>
@@ -257,6 +284,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hbJ-ni-Ydr"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="YcP-8t-n28" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="261" y="0.0" width="79" height="90"/>
@@ -277,6 +307,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e5e-WX-QEQ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -302,6 +335,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4pH-Ml-Hko"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fCX-zz-FWf" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="87" y="0.0" width="79" height="90"/>
@@ -322,6 +358,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eL3-g7-QpS"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="TYS-ZN-tF3" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="174" y="0.0" width="79" height="90"/>
@@ -342,6 +381,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gDM-iT-zwP"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Gv7-vW-1Bd" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="261" y="0.0" width="79" height="90"/>
@@ -362,6 +404,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C6L-DY-yiE"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -387,6 +432,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Yi-i3-f9B"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aqK-0S-CkR" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="87" y="0.0" width="79" height="90"/>
@@ -407,6 +455,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YXb-cm-g20"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="UsF-8n-x1l" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="174" y="0.0" width="79" height="90"/>
@@ -427,6 +478,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7y9-a3-VGP"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iMe-Su-arM" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="261" y="0.0" width="79" height="90"/>
@@ -447,6 +501,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PIy-1z-Ggr"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -472,6 +529,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gbd-pI-h1Q"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="waa-Ct-xRN" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="87" y="0.0" width="79" height="90"/>
@@ -492,6 +552,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zKs-NO-N0F"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yvA-md-wXO" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="174" y="0.0" width="79" height="90"/>
@@ -512,6 +575,9 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gYB-hW-YFD"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jbC-DO-Zjg" userLabel="Button" customClass="CardButton" customModule="TheSetGame" customModuleProvider="target">
                                                 <rect key="frame" x="261" y="0.0" width="79" height="90"/>
@@ -532,17 +598,20 @@
                                                         <color key="value" red="0.71448669799999998" green="0.7708367465" blue="0.76699966809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BGh-SR-UAL"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qK8-Vz-gIR" customClass="BorderButton" customModule="TheSetGame" customModuleProvider="target">
-                                <rect key="frame" x="35" y="654" width="305" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6Y-AV-E7S" customClass="BorderButton" customModule="TheSetGame" customModuleProvider="target">
+                                <rect key="frame" x="16" y="689" width="166" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.84313725490196079" green="0.90980392156862744" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.84313725490000002" green="0.90980392160000001" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="Deal 3 more">
+                                <state key="normal" title="Hint">
                                     <color key="titleColor" red="0.39528203519999999" green="0.428861188" blue="0.42672663129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -556,15 +625,15 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="0.5725490196078431" green="0.61960784313725492" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="0.57254901960000004" green="0.61960784310000006" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="dealMoreButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SKn-Ft-a77"/>
+                                    <action selector="highlightSetIfPossible:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jK5-xD-iec"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3YX-ND-R7L" customClass="BorderButton" customModule="TheSetGame" customModuleProvider="target">
-                                <rect key="frame" x="35" y="712" width="305" height="50"/>
+                                <rect key="frame" x="17" y="734" width="340" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.90980392160000001" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -589,11 +658,67 @@
                                     <action selector="startNewGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SFh-zE-5SV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qK8-Vz-gIR" customClass="BorderButton" customModule="TheSetGame" customModuleProvider="target">
+                                <rect key="frame" x="192" y="689" width="165" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.84313725490196079" green="0.90980392156862744" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Deal 3 more">
+                                    <color key="titleColor" red="0.39528203519999999" green="0.428861188" blue="0.42672663129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.5725490196078431" green="0.61960784313725492" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="dealMoreButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SKn-Ft-a77"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHm-ed-XAc">
+                                <rect key="frame" x="249" y="638" width="51" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.39528203519999999" green="0.428861188" blue="0.42672663129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="81" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K7W-TA-tVH">
+                                <rect key="frame" x="70" y="659" width="59" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.39528203519999999" green="0.428861188" blue="0.42672663129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prq-lp-hTl">
+                                <rect key="frame" x="249" y="659" width="51" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.39528203519999999" green="0.428861188" blue="0.42672663129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Deck" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2s2-Y1-qPd">
+                                <rect key="frame" x="77" y="638" width="45" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.39528203519999999" green="0.428861188" blue="0.42672663129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="deckLabel" destination="K7W-TA-tVH" id="zfy-q1-FRE"/>
+                        <outlet property="scoreLabel" destination="prq-lp-hTl" id="igM-VW-YmM"/>
                         <outletCollection property="cardButtons" destination="XfZ-5m-0CZ" collectionClass="NSMutableArray" id="UdD-b5-xgU"/>
                         <outletCollection property="cardButtons" destination="1Hv-E6-OQJ" collectionClass="NSMutableArray" id="VKf-Mo-aJU"/>
                         <outletCollection property="cardButtons" destination="cGc-OX-GkF" collectionClass="NSMutableArray" id="fUR-F6-1FE"/>
@@ -622,7 +747,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-492" y="-1100"/>
+            <point key="canvasLocation" x="-492" y="-1100.2463054187192"/>
         </scene>
     </scenes>
 </document>

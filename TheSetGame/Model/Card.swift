@@ -1,9 +1,7 @@
 import Foundation
 
-struct Card {
-    
-    private static var idFactory = 0
-    
+struct Card: Equatable {
+
     let quantity : Variant
     let shape : Variant
     let color : Variant
@@ -17,6 +15,13 @@ struct Card {
         static var all: [Variant]{return [.v1, .v2, .v3]}
         var description: String {return String(self.rawValue)}
         var idx: Int {return (self.rawValue - 1)}
+    }
+    
+    static func ==(lhs: Card, rhs: Card) -> Bool {
+        return lhs.quantity == rhs.quantity &&
+                lhs.shape == rhs.shape &&
+                lhs.color == rhs.color &&
+                lhs.background == rhs.background
     }
     
 }

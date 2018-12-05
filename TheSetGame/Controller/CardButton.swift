@@ -26,17 +26,19 @@ import UIKit
         return NSAttributedString(string: symbolsString, attributes: attributes)
     }
     
-    func initButton (card: Card) {
+    func initButton (card: Card, selected: Bool = false, completed: Bool = false, matched: Bool = false) {
         let attributedString  = setAttributedString(card: card)
         setAttributedTitle(attributedString, for: .normal)
-        borderColor = #colorLiteral(red: 0.714486698, green: 0.7708367465, blue: 0.7669996681, alpha: 1)
+        borderColor = selected ? (completed ? (matched ? Colors.matched : Colors.misMatched) :  Colors.selected) : #colorLiteral(red: 0.714486698, green: 0.7708367465, blue: 0.7669996681, alpha: 1)
         backgroundColor = #colorLiteral(red: 0.8431372549, green: 0.9098039216, blue: 0.9019607843, alpha: 1)
         isEnabled = true
     }
     
     private struct Colors {
-        static let selected = #colorLiteral(red: 0.5827867383, green: 0.6322943891, blue: 0.629147291, alpha: 1)
-        static let matched = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
-        static var misMatched = #colorLiteral(red: 0.5725490451, green: 0, blue: 0.2313725501, alpha: 1)
+        static let selected = #colorLiteral(red: 0.4941234232, green: 0.5360991379, blue: 0.5334308293, alpha: 1)
+        static let matched = #colorLiteral(red: 0.4036793784, green: 0.6611850907, blue: 0.2318294366, alpha: 1)
+        static var misMatched = #colorLiteral(red: 0.7708367465, green: 0.5440547895, blue: 0.5090919918, alpha: 1)
     }
+    
 }
+
